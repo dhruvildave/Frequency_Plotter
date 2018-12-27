@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="m_fun.cpp" />
+    <ClCompile Include="v_fun.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="m_fun.h" />
+    <ClInclude Include="v_fun.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
