@@ -9,6 +9,9 @@ int main(void) {
 	freq = m_fun::map_in(m);
 	v_fun::plot_freq(freq);
 
-	system("PAUSE");
+	if (!__linux) {
+		system("PAUSE");
+	}
+	
 	return 0;
 }
